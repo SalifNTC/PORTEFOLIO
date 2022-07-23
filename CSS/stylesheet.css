@@ -210,3 +210,55 @@ section{
     margin-right: 20px;
     
 }
+
+.center{
+    text-align: center;
+}
+.center h3{
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+.service--content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.4rem;
+
+}
+
+.row{
+    background: #0b0b13;
+    padding: 50px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .40s;
+}
+
+.row i {
+    color: var(--main-color);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.row h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: var(--text-color);
+
+}
+.row p {
+    font-size: 15px;
+    color: var(--2nd-main-color);
+    line-height: 30px;
+    text-align: justify;
+}
+
+.row:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px 0px rgb(0 0 0/70%);
+}
