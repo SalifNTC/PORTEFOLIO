@@ -4,7 +4,7 @@ let navbar = document.querySelector('.navbar');
 menu.onclick = () =>{
     console.log("gdrvr")
     menu.classList.toggle('bx-x');
-    navbar.classList.remove('active');
+    navbar.classList.toggle('active');
 };
 
 window.onscroll = () =>{
