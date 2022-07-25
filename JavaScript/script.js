@@ -2,8 +2,9 @@ let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = () =>{
+    console.log("gdrvr")
     menu.classList.toggle('bx-x');
-    navbar.classList.toggle('remove');
+    navbar.classList.remove('active');
 };
 
 window.onscroll = () =>{
