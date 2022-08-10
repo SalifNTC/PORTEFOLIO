@@ -296,6 +296,7 @@ section{
     background: #0b0b13;
     padding: 40px 30px;
     border-radius: 5px;
+    min-height: 306px;
     cursor: pointer;
     transition: all .40s;
 
@@ -317,6 +318,7 @@ section{
     font-size: var(--p-font);
     font-weight: 700;
     margin-bottom: 1.2rem;
+    min-height: 125px;
     line-height: 1.8rem;
     color: var(--2nd-main-color);
 }
