@@ -1,10 +1,11 @@
-var senderName = document.getElementById("#senderName");
-var sender = document.getElementById("#sender");
-var content = document.getElementById("#content");
+let senderName = document.getElementById("#senderName");
+let sender = document.getElementById("#sender");
+let content = document.getElementById("#content");
+let send = document.querySelector('.send-btn')
 
-function sendEmail() { 
+send.onclick = () => { 
 	Email.send({ 
-		Host: "smtp.gmail.com", 
+		Host: "salifhenrique17@gmail.com", 
 		Username: "sender", 
 		Password: "Enter your password", 
 		To: 'salifhenrique17@gmail.com', 
