@@ -1,5 +1,8 @@
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+let cv = document.getElementById('#CV');
+
+
 
 menu.onclick = () =>{
     console.log("gdrvr")
@@ -21,4 +24,8 @@ const sr =  ScrollReveal({
 sr.reveal('.home-text',{delay:200, origin:'top'})
 sr.reveal('.home-img',{delay:400, origin:'top'})
 sr.reveal('.about, .services, .cta, .resume, .contact, .copyright',{delay:200, origin:'top'})
-console.log("ola")
+
+cv.onclick = () =>{
+    cv.download;
+
+};
